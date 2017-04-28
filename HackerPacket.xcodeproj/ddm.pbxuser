@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 100}";
+			sepNavWindowFrame = "{{137, 22}, {1085, 788}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 53C6CB590D3AE1FD0027FA02 /* HackerPacket */;
+		activeTarget = 8D1107260486CEB800E47090 /* HackerPacket */;
+		addToTargets = (
+			535960630D444774007050D4 /* HackerPacketHelper */,
+			5359606E0D444790007050D4 /* HackerPacketInstaller */,
+		);
+		breakpoints = (
+			53BB37860D4C367F006A0F10 /* HackerPacketOpenGLView.mm:1 */,
+			536431150D4C521D00585AD6 /* hackerpacket_helper.m:23 */,
+		);
+		codeSenseManager = 53C6CB6C0D3AE2030027FA02 /* Code sense */;
+		executables = (
+			53C6CB590D3AE1FD0027FA02 /* HackerPacket */,
+			535960650D444774007050D4 /* HackerPacketHelper */,
+			535960700D444790007050D4 /* HackerPacketInstaller */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					255,
+					20,
+					155,
+					155,
+					84,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					538,
+					353,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					653.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					701,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					715,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					661,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 226977670;
+			PBXWorkspaceStateSaveDate = 226977670;
+		};
+		sourceControlManager = 53C6CB6B0D3AE2030027FA02 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{207, 0}";
+			sepNavVisRange = "{0, 251}";
+			sepNavWindowFrame = "{{230, 73}, {1085, 788}}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* HackerPacket_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 155}";
+			sepNavWindowFrame = "{{68, 85}, {1085, 788}}";
+		};
+	};
+	535960630D444774007050D4 /* HackerPacketHelper */ = {
+		activeExec = 0;
+		executables = (
+			535960650D444774007050D4 /* HackerPacketHelper */,
+		);
+	};
+	535960650D444774007050D4 /* HackerPacketHelper */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HackerPacketHelper;
+		sourceDirectories = (
+		);
+	};
+	5359606E0D444790007050D4 /* HackerPacketInstaller */ = {
+		activeExec = 0;
+		executables = (
+			535960700D444790007050D4 /* HackerPacketInstaller */,
+		);
+	};
+	535960700D444790007050D4 /* HackerPacketInstaller */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HackerPacketInstaller;
+		sourceDirectories = (
+		);
+	};
+	535960820D44492A007050D4 /* BetterAuthorizationSampleLib.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1220, 33810}}";
+			sepNavSelRange = "{14748, 63}";
+			sepNavVisRange = "{15063, 1459}";
+			sepNavWindowFrame = "{{137, 22}, {1085, 788}}";
+		};
+	};
+	535960870D444956007050D4 /* BetterAuthorizationSampleLibInstallTool.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 6146}}";
+			sepNavSelRange = "{14142, 14}";
+			sepNavVisRange = "{13452, 1267}";
+			sepNavWindowFrame = "{{91, 64}, {1085, 788}}";
+		};
+	};
+	535960910D444993007050D4 /* BetterAuthorizationSampleLib.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 10976}}";
+			sepNavSelRange = "{32450, 11}";
+			sepNavVisRange = "{35953, 1445}";
+			sepNavWindowFrame = "{{114, 43}, {1085, 788}}";
+		};
+	};
+	535960940D4449C0007050D4 /* protocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{168, 0}";
+			sepNavVisRange = "{0, 530}";
+			sepNavWindowFrame = "{{114, 43}, {1085, 788}}";
+		};
+	};
+	535960950D4449C0007050D4 /* protocol.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{918, 0}";
+			sepNavVisRange = "{0, 1280}";
+			sepNavWindowFrame = "{{68, 85}, {1085, 788}}";
+		};
+	};
+	535961B90D444CB8007050D4 /* hackerpacket_helper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 1386}}";
+			sepNavSelRange = "{1255, 0}";
+			sepNavVisRange = "{46, 1294}";
+			sepNavWindowFrame = "{{91, 64}, {1085, 788}}";
+		};
+	};
+	536431150D4C521D00585AD6 /* hackerpacket_helper.m:23 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 535961B90D444CB8007050D4 /* hackerpacket_helper.m */;
+		functionName = "InitInterface()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 23;
+		modificationTime = 223105596.436534;
+		state = 1;
+	};
+	53BB37860D4C367F006A0F10 /* HackerPacketOpenGLView.mm:1 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 53E2F8260D3B11720053BB32 /* HackerPacketOpenGLView.mm */;
+		functionName = "-sendRequestToHelper:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 1;
+		location = HackerPacket;
+		modificationTime = 223105577.1718861;
+		state = 1;
+	};
+	53C6CB590D3AE1FD0027FA02 /* HackerPacket */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HackerPacket;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	53C6CB6B0D3AE2030027FA02 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	53C6CB6C0D3AE2030027FA02 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	53C6CB6F0D3AE2300027FA02 /* building.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 2786}}";
+			sepNavSelRange = "{86, 0}";
+			sepNavVisRange = "{2683, 1134}";
+			sepNavWindowFrame = "{{160, 1}, {1085, 788}}";
+		};
+	};
+	53C6CB700D3AE2300027FA02 /* building.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{40, 24}";
+			sepNavVisRange = "{0, 811}";
+			sepNavWindowFrame = "{{68, 85}, {1085, 788}}";
+		};
+	};
+	53C6CB710D3AE2300027FA02 /* c_particles.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 2058}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2174, 1028}";
+			sepNavWindowFrame = "{{68, 85}, {1085, 788}}";
+		};
+	};
+	53C6CB730D3AE2300027FA02 /* c_texture.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 4326}}";
+			sepNavSelRange = "{384, 0}";
+			sepNavVisRange = "{0, 947}";
+			sepNavWindowFrame = "{{68, 85}, {1085, 788}}";
+		};
+	};
+	53C6CB740D3AE2300027FA02 /* c_texture.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 1092}}";
+			sepNavSelRange = "{93, 0}";
+			sepNavVisRange = "{0, 1015}";
+			sepNavWindowFrame = "{{91, 64}, {1085, 788}}";
+		};
+	};
+	53C6CB760D3AE2300027FA02 /* camera.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 770}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 901}";
+			sepNavWindowFrame = "{{91, 64}, {1085, 788}}";
+		};
+	};
+	53C6CB770D3AE2300027FA02 /* camera.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{33, 0}";
+			sepNavVisRange = "{0, 862}";
+			sepNavWindowFrame = "{{114, 43}, {1085, 788}}";
+		};
+	};
+	53C6CB780D3AE2300027FA02 /* font.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 2058}}";
+			sepNavSelRange = "{412, 0}";
+			sepNavVisRange = "{0, 1249}";
+			sepNavWindowFrame = "{{91, 64}, {1085, 788}}";
+		};
+	};
+	53C6CB790D3AE2300027FA02 /* font.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{636, 14}";
+			sepNavVisRange = "{0, 966}";
+			sepNavWindowFrame = "{{137, 22}, {1085, 788}}";
+		};
+	};
+	53C6CB7A0D3AE2300027FA02 /* hackerpacket.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 5418}}";
+			sepNavSelRange = "{1882, 0}";
+			sepNavVisRange = "{509, 945}";
+			sepNavWindowFrame = "{{137, 22}, {1085, 788}}";
+		};
+	};
+	53C6CB7B0D3AE2300027FA02 /* mathlib.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 402}";
+			sepNavWindowFrame = "{{160, 1}, {1085, 788}}";
+		};
+	};
+	53C6CB7C0D3AE2300027FA02 /* resource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 406}";
+			sepNavWindowFrame = "{{114, 43}, {1085, 788}}";
+		};
+	};
+	53C6CB7D0D3AE2300027FA02 /* stdafx.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 299}";
+			sepNavWindowFrame = "{{91, 64}, {1085, 788}}";
+		};
+	};
+	53C6CB7E0D3AE2300027FA02 /* stdafx.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{324, 0}";
+			sepNavVisRange = "{0, 578}";
+			sepNavWindowFrame = "{{114, 43}, {1085, 788}}";
+		};
+	};
+	53C6CB7F0D3AE2300027FA02 /* tcpdump3d.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 1834}}";
+			sepNavSelRange = "{698, 86}";
+			sepNavVisRange = "{150, 1259}";
+			sepNavWindowFrame = "{{68, 85}, {1085, 788}}";
+		};
+	};
+	53C6CB800D3AE2300027FA02 /* tcpdump3d.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 633}";
+			sepNavWindowFrame = "{{68, 85}, {1085, 788}}";
+		};
+	};
+	53E2F8250D3B11720053BB32 /* HackerPacketOpenGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{0, 506}";
+			sepNavWindowFrame = "{{114, 43}, {1085, 788}}";
+		};
+	};
+	53E2F8260D3B11720053BB32 /* HackerPacketOpenGLView.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 2842}}";
+			sepNavSelRange = "{3485, 0}";
+			sepNavVisRange = "{3030, 1198}";
+			sepNavWindowFrame = "{{303, -43}, {1085, 788}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* HackerPacket */ = {
+		activeExec = 0;
+		executables = (
+			53C6CB590D3AE1FD0027FA02 /* HackerPacket */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1026, 660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 841}";
+			sepNavWindowFrame = "{{589, -35}, {1085, 788}}";
+		};
+	};
+}

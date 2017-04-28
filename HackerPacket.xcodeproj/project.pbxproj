@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5338D33D0D43FC04006896F2 /* blank.tga in Resources */ = {isa = PBXBuildFile; fileRef = 5338D33C0D43FC04006896F2 /* blank.tga */; };
+		534533F60D43E84300534CFC /* font-8bit.tga in Resources */ = {isa = PBXBuildFile; fileRef = 534533F20D43E84300534CFC /* font-8bit.tga */; };
+		534533F70D43E84300534CFC /* pcb.tga in Resources */ = {isa = PBXBuildFile; fileRef = 534533F30D43E84300534CFC /* pcb.tga */; };
+		534533F80D43E84300534CFC /* particle2.tga in Resources */ = {isa = PBXBuildFile; fileRef = 534533F40D43E84300534CFC /* particle2.tga */; };
+		534533F90D43E84300534CFC /* particle.tga in Resources */ = {isa = PBXBuildFile; fileRef = 534533F50D43E84300534CFC /* particle.tga */; };
+		5359607E0D4448BE007050D4 /* HackerPacketHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 535960640D444774007050D4 /* HackerPacketHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5359607F0D4448C2007050D4 /* HackerPacketInstaller in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5359606F0D444790007050D4 /* HackerPacketInstaller */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		535960830D44492A007050D4 /* BetterAuthorizationSampleLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 535960820D44492A007050D4 /* BetterAuthorizationSampleLib.c */; };
+		535960840D44492A007050D4 /* BetterAuthorizationSampleLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 535960820D44492A007050D4 /* BetterAuthorizationSampleLib.c */; };
+		535960880D444956007050D4 /* BetterAuthorizationSampleLibInstallTool.c in Sources */ = {isa = PBXBuildFile; fileRef = 535960870D444956007050D4 /* BetterAuthorizationSampleLibInstallTool.c */; };
+		535960960D4449C0007050D4 /* protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 535960950D4449C0007050D4 /* protocol.c */; };
+		535960970D4449C0007050D4 /* protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 535960950D4449C0007050D4 /* protocol.c */; };
+		535960A20D444BB0007050D4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535960A10D444BB0007050D4 /* Carbon.framework */; };
+		535960A30D444BB0007050D4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535960A10D444BB0007050D4 /* Carbon.framework */; };
+		5359616A0D444C04007050D4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535961690D444C04007050D4 /* Security.framework */; };
+		535961BA0D444CB8007050D4 /* hackerpacket_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 535961B90D444CB8007050D4 /* hackerpacket_helper.m */; };
+		535961CC0D444D7C007050D4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535961690D444C04007050D4 /* Security.framework */; };
+		535961CD0D444D80007050D4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535961690D444C04007050D4 /* Security.framework */; };
+		53746E630D4C40810039DF9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		53746EE10D4C408F0039DF9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		53C6CB810D3AE2300027FA02 /* building.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CB6F0D3AE2300027FA02 /* building.cpp */; };
+		53C6CB820D3AE2300027FA02 /* c_particles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CB710D3AE2300027FA02 /* c_particles.cpp */; };
+		53C6CB830D3AE2300027FA02 /* c_texture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CB730D3AE2300027FA02 /* c_texture.mm */; };
+		53C6CB840D3AE2300027FA02 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CB760D3AE2300027FA02 /* camera.cpp */; };
+		53C6CB850D3AE2300027FA02 /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CB780D3AE2300027FA02 /* font.cpp */; };
+		53C6CB860D3AE2300027FA02 /* hackerpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CB7A0D3AE2300027FA02 /* hackerpacket.cpp */; };
+		53C6CB870D3AE2300027FA02 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CB7D0D3AE2300027FA02 /* stdafx.cpp */; };
+		53C6CB880D3AE2300027FA02 /* tcpdump3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C6CB7F0D3AE2300027FA02 /* tcpdump3d.cpp */; };
+		53E2F8270D3B11720053BB32 /* HackerPacketOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53E2F8260D3B11720053BB32 /* HackerPacketOpenGLView.mm */; };
+		53F435F20D3AE5B900BD5026 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F435F10D3AE5B900BD5026 /* OpenGL.framework */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		535960740D4447BA007050D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 535960630D444774007050D4;
+			remoteInfo = HackerPacketHelper;
+		};
+		535960760D4447C0007050D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5359606E0D444790007050D4;
+			remoteInfo = HackerPacketInstaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5359607D0D44481D007050D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				5359607F0D4448C2007050D4 /* HackerPacketInstaller in CopyFiles */,
+				5359607E0D4448BE007050D4 /* HackerPacketHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* HackerPacket_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackerPacket_Prefix.pch; sourceTree = "<group>"; };
+		5338D33C0D43FC04006896F2 /* blank.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = blank.tga; path = textures/blank.tga; sourceTree = "<group>"; };
+		534533F20D43E84300534CFC /* font-8bit.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = "font-8bit.tga"; path = "textures/font-8bit.tga"; sourceTree = "<group>"; };
+		534533F30D43E84300534CFC /* pcb.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = pcb.tga; path = textures/pcb.tga; sourceTree = "<group>"; };
+		534533F40D43E84300534CFC /* particle2.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = particle2.tga; path = textures/particle2.tga; sourceTree = "<group>"; };
+		534533F50D43E84300534CFC /* particle.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = particle.tga; path = textures/particle.tga; sourceTree = "<group>"; };
+		535960640D444774007050D4 /* HackerPacketHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerPacketHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		5359606F0D444790007050D4 /* HackerPacketInstaller */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerPacketInstaller; sourceTree = BUILT_PRODUCTS_DIR; };
+		535960820D44492A007050D4 /* BetterAuthorizationSampleLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BetterAuthorizationSampleLib.c; sourceTree = "<group>"; };
+		535960870D444956007050D4 /* BetterAuthorizationSampleLibInstallTool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BetterAuthorizationSampleLibInstallTool.c; sourceTree = "<group>"; };
+		535960910D444993007050D4 /* BetterAuthorizationSampleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterAuthorizationSampleLib.h; sourceTree = "<group>"; };
+		535960940D4449C0007050D4 /* protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocol.h; sourceTree = "<group>"; };
+		535960950D4449C0007050D4 /* protocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = protocol.c; sourceTree = "<group>"; };
+		535960A10D444BB0007050D4 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		535961690D444C04007050D4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		535961B90D444CB8007050D4 /* hackerpacket_helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hackerpacket_helper.m; sourceTree = "<group>"; };
+		53C6CB6F0D3AE2300027FA02 /* building.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = building.cpp; path = src/building.cpp; sourceTree = "<group>"; };
+		53C6CB700D3AE2300027FA02 /* building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = building.h; path = src/building.h; sourceTree = "<group>"; };
+		53C6CB710D3AE2300027FA02 /* c_particles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = c_particles.cpp; path = src/c_particles.cpp; sourceTree = "<group>"; };
+		53C6CB720D3AE2300027FA02 /* c_particles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = c_particles.h; path = src/c_particles.h; sourceTree = "<group>"; };
+		53C6CB730D3AE2300027FA02 /* c_texture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = c_texture.mm; path = src/c_texture.mm; sourceTree = "<group>"; };
+		53C6CB740D3AE2300027FA02 /* c_texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = c_texture.h; path = src/c_texture.h; sourceTree = "<group>"; };
+		53C6CB750D3AE2300027FA02 /* c_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = c_vector.h; path = src/c_vector.h; sourceTree = "<group>"; };
+		53C6CB760D3AE2300027FA02 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = camera.cpp; path = src/camera.cpp; sourceTree = "<group>"; };
+		53C6CB770D3AE2300027FA02 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camera.h; path = src/camera.h; sourceTree = "<group>"; };
+		53C6CB780D3AE2300027FA02 /* font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = font.cpp; path = src/font.cpp; sourceTree = "<group>"; };
+		53C6CB790D3AE2300027FA02 /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = font.h; path = src/font.h; sourceTree = "<group>"; };
+		53C6CB7A0D3AE2300027FA02 /* hackerpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hackerpacket.cpp; path = src/hackerpacket.cpp; sourceTree = "<group>"; };
+		53C6CB7B0D3AE2300027FA02 /* mathlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mathlib.h; path = src/mathlib.h; sourceTree = "<group>"; };
+		53C6CB7C0D3AE2300027FA02 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = src/resource.h; sourceTree = "<group>"; };
+		53C6CB7D0D3AE2300027FA02 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = src/stdafx.cpp; sourceTree = "<group>"; };
+		53C6CB7E0D3AE2300027FA02 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = src/stdafx.h; sourceTree = "<group>"; };
+		53C6CB7F0D3AE2300027FA02 /* tcpdump3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tcpdump3d.cpp; path = src/tcpdump3d.cpp; sourceTree = "<group>"; };
+		53C6CB800D3AE2300027FA02 /* tcpdump3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tcpdump3d.h; path = src/tcpdump3d.h; sourceTree = "<group>"; };
+		53E2F8250D3B11720053BB32 /* HackerPacketOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackerPacketOpenGLView.h; sourceTree = "<group>"; };
+		53E2F8260D3B11720053BB32 /* HackerPacketOpenGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HackerPacketOpenGLView.mm; sourceTree = "<group>"; };
+		53F435F10D3AE5B900BD5026 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* HackerPacket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerPacket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		535960620D444774007050D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53746EE10D4C408F0039DF9A /* Foundation.framework in Frameworks */,
+				535960A20D444BB0007050D4 /* Carbon.framework in Frameworks */,
+				5359616A0D444C04007050D4 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5359606D0D444790007050D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535960A30D444BB0007050D4 /* Carbon.framework in Frameworks */,
+				535961CD0D444D80007050D4 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53746E630D4C40810039DF9A /* Foundation.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				53F435F20D3AE5B900BD5026 /* OpenGL.framework in Frameworks */,
+				535961CC0D444D7C007050D4 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				535961690D444C04007050D4 /* Security.framework */,
+				535960A10D444BB0007050D4 /* Carbon.framework */,
+				53F435F10D3AE5B900BD5026 /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* HackerPacket.app */,
+				535960640D444774007050D4 /* HackerPacketHelper */,
+				5359606F0D444790007050D4 /* HackerPacketInstaller */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* HackerPacket */ = {
+			isa = PBXGroup;
+			children = (
+				534533FB0D43E85800534CFC /* Images */,
+				53F4360A0D3AE65800BD5026 /* CrossPlatformSrc */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* OSXSrc */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = HackerPacket;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* OSXSrc */ = {
+			isa = PBXGroup;
+			children = (
+				535961B90D444CB8007050D4 /* hackerpacket_helper.m */,
+				535960940D4449C0007050D4 /* protocol.h */,
+				535960950D4449C0007050D4 /* protocol.c */,
+				535960910D444993007050D4 /* BetterAuthorizationSampleLib.h */,
+				535960870D444956007050D4 /* BetterAuthorizationSampleLibInstallTool.c */,
+				535960820D44492A007050D4 /* BetterAuthorizationSampleLib.c */,
+				53E2F8250D3B11720053BB32 /* HackerPacketOpenGLView.h */,
+				53E2F8260D3B11720053BB32 /* HackerPacketOpenGLView.mm */,
+				32CA4F630368D1EE00C91783 /* HackerPacket_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = OSXSrc;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		534533FB0D43E85800534CFC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5338D33C0D43FC04006896F2 /* blank.tga */,
+				534533F20D43E84300534CFC /* font-8bit.tga */,
+				534533F30D43E84300534CFC /* pcb.tga */,
+				534533F40D43E84300534CFC /* particle2.tga */,
+				534533F50D43E84300534CFC /* particle.tga */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		53F4360A0D3AE65800BD5026 /* CrossPlatformSrc */ = {
+			isa = PBXGroup;
+			children = (
+				53C6CB6F0D3AE2300027FA02 /* building.cpp */,
+				53C6CB700D3AE2300027FA02 /* building.h */,
+				53C6CB710D3AE2300027FA02 /* c_particles.cpp */,
+				53C6CB720D3AE2300027FA02 /* c_particles.h */,
+				53C6CB730D3AE2300027FA02 /* c_texture.mm */,
+				53C6CB740D3AE2300027FA02 /* c_texture.h */,
+				53C6CB750D3AE2300027FA02 /* c_vector.h */,
+				53C6CB760D3AE2300027FA02 /* camera.cpp */,
+				53C6CB770D3AE2300027FA02 /* camera.h */,
+				53C6CB780D3AE2300027FA02 /* font.cpp */,
+				53C6CB790D3AE2300027FA02 /* font.h */,
+				53C6CB7A0D3AE2300027FA02 /* hackerpacket.cpp */,
+				53C6CB7B0D3AE2300027FA02 /* mathlib.h */,
+				53C6CB7C0D3AE2300027FA02 /* resource.h */,
+				53C6CB7D0D3AE2300027FA02 /* stdafx.cpp */,
+				53C6CB7E0D3AE2300027FA02 /* stdafx.h */,
+				53C6CB7F0D3AE2300027FA02 /* tcpdump3d.cpp */,
+				53C6CB800D3AE2300027FA02 /* tcpdump3d.h */,
+			);
+			name = CrossPlatformSrc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		535960630D444774007050D4 /* HackerPacketHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 535960680D44477C007050D4 /* Build configuration list for PBXNativeTarget "HackerPacketHelper" */;
+			buildPhases = (
+				535960610D444774007050D4 /* Sources */,
+				535960620D444774007050D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerPacketHelper;
+			productName = HackerPacketHelper;
+			productReference = 535960640D444774007050D4 /* HackerPacketHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		5359606E0D444790007050D4 /* HackerPacketInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 535960730D444795007050D4 /* Build configuration list for PBXNativeTarget "HackerPacketInstaller" */;
+			buildPhases = (
+				5359606C0D444790007050D4 /* Sources */,
+				5359606D0D444790007050D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerPacketInstaller;
+			productName = HackerPacketInstaller;
+			productReference = 5359606F0D444790007050D4 /* HackerPacketInstaller */;
+			productType = "com.apple.product-type.tool";
+		};
+		8D1107260486CEB800E47090 /* HackerPacket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "HackerPacket" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				5359607D0D44481D007050D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				535960750D4447BA007050D4 /* PBXTargetDependency */,
+				535960770D4447C0007050D4 /* PBXTargetDependency */,
+			);
+			name = HackerPacket;
+			productInstallPath = "$(HOME)/Applications";
+			productName = HackerPacket;
+			productReference = 8D1107320486CEB800E47090 /* HackerPacket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HackerPacket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* HackerPacket */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* HackerPacket */,
+				535960630D444774007050D4 /* HackerPacketHelper */,
+				5359606E0D444790007050D4 /* HackerPacketInstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				534533F60D43E84300534CFC /* font-8bit.tga in Resources */,
+				534533F70D43E84300534CFC /* pcb.tga in Resources */,
+				534533F80D43E84300534CFC /* particle2.tga in Resources */,
+				534533F90D43E84300534CFC /* particle.tga in Resources */,
+				5338D33D0D43FC04006896F2 /* blank.tga in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		535960610D444774007050D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535960840D44492A007050D4 /* BetterAuthorizationSampleLib.c in Sources */,
+				535960970D4449C0007050D4 /* protocol.c in Sources */,
+				535961BA0D444CB8007050D4 /* hackerpacket_helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5359606C0D444790007050D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535960880D444956007050D4 /* BetterAuthorizationSampleLibInstallTool.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				53C6CB810D3AE2300027FA02 /* building.cpp in Sources */,
+				53C6CB820D3AE2300027FA02 /* c_particles.cpp in Sources */,
+				53C6CB830D3AE2300027FA02 /* c_texture.mm in Sources */,
+				53C6CB840D3AE2300027FA02 /* camera.cpp in Sources */,
+				53C6CB850D3AE2300027FA02 /* font.cpp in Sources */,
+				53C6CB860D3AE2300027FA02 /* hackerpacket.cpp in Sources */,
+				53C6CB870D3AE2300027FA02 /* stdafx.cpp in Sources */,
+				53C6CB880D3AE2300027FA02 /* tcpdump3d.cpp in Sources */,
+				53E2F8270D3B11720053BB32 /* HackerPacketOpenGLView.mm in Sources */,
+				535960830D44492A007050D4 /* BetterAuthorizationSampleLib.c in Sources */,
+				535960960D4449C0007050D4 /* protocol.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		535960750D4447BA007050D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 535960630D444774007050D4 /* HackerPacketHelper */;
+			targetProxy = 535960740D4447BA007050D4 /* PBXContainerItemProxy */;
+		};
+		535960770D4447C0007050D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5359606E0D444790007050D4 /* HackerPacketInstaller */;
+			targetProxy = 535960760D4447C0007050D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		535960660D444775007050D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = HackerPacketHelper;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		535960670D444775007050D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = HackerPacketHelper;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		535960710D444790007050D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = HackerPacketInstaller;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		535960720D444790007050D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = HackerPacketInstaller;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HackerPacket_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msynet.HackerPacket;
+				PRODUCT_NAME = HackerPacket;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HackerPacket_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msynet.HackerPacket;
+				PRODUCT_NAME = HackerPacket;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		535960680D44477C007050D4 /* Build configuration list for PBXNativeTarget "HackerPacketHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				535960660D444775007050D4 /* Debug */,
+				535960670D444775007050D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		535960730D444795007050D4 /* Build configuration list for PBXNativeTarget "HackerPacketInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				535960710D444790007050D4 /* Debug */,
+				535960720D444790007050D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "HackerPacket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HackerPacket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
